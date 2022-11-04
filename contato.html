@@ -17,8 +17,8 @@
       <img id="banner" src="./Images/salons.png">
     </header>
 <body>
-    <div class="container_form">
-        <h1 class="title_contato"><i class="icon icon-file-text-o"></i> Fale Conosco</h1>
+    <div class="row input-container">
+        <h1 class="title_contato">Fale Conosco</h1>
         
         <form method="post" action="#">
             <div class="style-form-input full">
@@ -35,18 +35,6 @@
                 <input type="text" name="assunto" required />
                 <label><i class="icon icon-info-circled"></i> Assunto</label> 
             </div>
-            <div class="style-form-input full">
-            
-                <select name="estadocivil" class="dropdown select_form" required>
-                
-                <option selected disabled class="form_select_option" value="">Sugestão de Artigos ?</option>
-                <option value="Html5" class="form_select_option">Html5</option>
-                <option value="Css3" class="form_select_option">Css3 </option>
-                <option value="jQuery" class="form_select_option">jQuery</option>                    
-                <option value="WordPress" class="form_select_option">WordPress</option>                    
-            
-                </select>
-            </div>    
             
             <div class="style-form-input full">
                 <textarea name="mensagem" required></textarea>
@@ -54,7 +42,7 @@
             </div>
             <div class="style-form-input full">
                 <input type="hidden" name="acao" value="enviar">
-                <button class="btn-submit">Enviar mensagem</button>
+                <button class="btn-submit">Enviar</button>
             
             </div>
         </form>
