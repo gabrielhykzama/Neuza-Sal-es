@@ -23,23 +23,23 @@ h1 {
 .title_contato {
     font-family: 'open_sansregular';
     font-weight: 600;
-    font-size:1.8em;
-    color: #444;
+    font-size:4em;
+    color: #fff;
     text-align: left;
-    margin-bottom:10px;
+    margin-bottom:20px;
 }
 input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid ~ label {
   
-    font-size: 0.8em;
-    color: #5be1e5;
-    top: -15px;
-    -webkit-transition: all 0.225s ease;
-    transition: all 0.225s ease;
-    background: #fff;
-    padding: 7px 6px;
-    left: 10px;
-    border-radius: ;
-    font-weight: bold;
+  font-size: 0.8em;
+  color: #fff;
+  top: -11px;
+  -webkit-transition: all 0.225s ease;
+  transition: all 0.225s ease;
+  background: #00cfd5;
+  padding: 3px 8px;
+  left: 25px;
+  border-radius: 50px;
+  font-weight: bold;
 }
 .style-form-input {
     float: left;
@@ -55,7 +55,7 @@ input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid
 }
 .style-form-input label {
     color: #999;
-    padding: 7px 15px;
+    padding: 1.3rem 30px 1rem 30px;
     position: absolute;
     top: 10px;
     left: 0;
@@ -67,16 +67,15 @@ input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid
     width: 650px;
     max-width: 100%;
 }
-input,select,
+input,
 textarea {
     width: 100%;
-    padding: 15px;
+    padding: 30px;
     border: 0;
     font-size: 1em;
-    background-color: #ffffff;
-    color: #999;
-    border-radius: 6px;
-    border: 1px #eeecec solid;
+    background-color: #2d2d2d;
+    color: #fff;
+    border-radius: 50px;
 }
 input:focus,
 textarea:focus { outline: 0; }
@@ -88,28 +87,23 @@ textarea:focus ~ span {
 }
 textarea {
     width: 100%;
-    min-height: 7em;
+    min-height: 10em;
 }
-.container_form {
-    
+.input-container {
     width: 650px;
     max-width: 100%;
-    overflow: hidden;
-    background:#fff; 
-    box-shadow: 1px 0px 1.2px 0px #e3e3e3; 
-    border-radius:3px; padding:1em; 
     margin: 20px auto 25px auto;
 }
 .btn-submit {
-    width: 100%;
+    width: 160px;
     color: #fff;
     font-size: 1.2em;    
     float: left;
     text-align: center;
     padding: 15px 35px;
-    border-radius: 6px;
+    border-radius: 60px;
     display: inline-block;
-    background-color: #444444;
+    background-color: #06bec6;
     cursor: pointer;
     box-shadow: 0 2px 5px 0 rgba(0,0,0,0.06), 0 2px 10px 0 rgba(0,0,0,0.07);
     -webkit-transition: all 300ms ease;
@@ -118,10 +112,9 @@ textarea {
 }
 .btn-submit:hover {
     
-    background-color: #5be1e5;
-    transform: translateY(2px);
+    transform: translateY(1px);
     box-shadow: 0 1px 1px 0 rgba(0,0,0,0.10),
-    0 1px 1px 0 rgba(0,0,0,0.08);
+    0 1px 1px 0 rgba(0,0,0,0.09);
 }
 @media (max-width: 768px) {
     
