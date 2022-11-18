@@ -11,7 +11,14 @@ nav {
 	top: 5px;
 	right: 15px;
 	background-color: black;
+}
 
+nav a {
+	font-weight: lighter;
+	font-size: 35px;
+	text-decoration: none;
+	color:brown;
+}
 body{
 	background: #a57343;
 	margin: 0;
