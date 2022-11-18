@@ -1,9 +1,17 @@
 nav li{
 	display: inline;
+	margin: 0, 25px, 0, 25px;
 	text-decoration: none;
 	text-transform: uppercase;
+	padding-right: 5%;
 }
 
+nav {
+	width: 940px;
+	top: 5px;
+	right: 15px;
+	background-color: 	#000000;
+}
 
 body{
 	background: #a57343;
