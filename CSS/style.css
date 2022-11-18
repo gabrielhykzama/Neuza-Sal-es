@@ -20,6 +20,12 @@ nav a {
 	text-decoration: none;
 	color:#a57343;
 }
+
+nav a :hover{
+	color:beige;
+	text-decoration: underline;
+	
+}
 body{
 	background: #a57343;
 	margin: 0;
