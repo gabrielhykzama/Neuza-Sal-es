@@ -1,3 +1,4 @@
+
 nav li{
 	display: inline;
 	margin: 0, 25px, 0, 25px;
@@ -10,14 +11,14 @@ nav {
 	width: 940px;
 	top: 5px;
 	right: 15px;
-	background-color: black;
+	background-color:black;
 }
 
 nav a {
 	font-weight: lighter;
 	font-size: 35px;
 	text-decoration: none;
-	color:brown;
+	color:#a57343;
 }
 body{
 	background: #a57343;
